@@ -1,0 +1,37 @@
+.footer {
+    padding: 10px;
+    background:  var(--bg-gradient);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 12%;
+}
+
+.footerLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(144, 141, 141);
+    margin: 10px;
+    font-size: 12px;
+    width: 70px;
+}
+
+.footerLink:hover {
+    background-color: rgba(5, 120, 70, 0.707);
+    border-radius: 10px;
+    transition: background-color 2s;
+    width: 70px;
+    height: 93%;
+    color: rgb(255, 255, 255);
+    
+}
+
+.footerIcon {   
+    width: 35px;
+    margin: 5px 0;
+}

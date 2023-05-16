@@ -1,0 +1,25 @@
+.header {
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    place-items: center;
+    background: var(--bg-gradient);
+}
+
+.input {
+    background-color: rgba(121, 121, 121, 0.267);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    border: none;
+    width: 80vw;
+}
+
+.searchImg {
+    width: 8%;
+    height: 8%;
+    max-width: 35px;
+    max-height: 35px;
+    object-fit: contain;
+}
